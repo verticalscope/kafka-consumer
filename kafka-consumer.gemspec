@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "mocha", "~> 1.0"
 
   spec.add_runtime_dependency "poseidon", "~> 0.0.5"
-  spec.add_runtime_dependency "kazoo-ruby", git: 'git@github.com:ashifmanjur/kazoo.git', branch: 'bump-thor-gem-version', ref: '3a089eeac6edbc5209e6a3dd720104141d90516a'
+  spec.add_runtime_dependency "kazoo-ruby"
 end
